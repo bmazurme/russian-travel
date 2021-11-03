@@ -8,7 +8,7 @@
     margin: 0;    
     gap: 50px;    
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(35px,70px) 46px 1fr max-content;
+    grid-template-rows: max-content 46px 1fr max-content;
     grid-template-areas:
       "title"
       "website"
@@ -18,13 +18,13 @@
 } 
 @media screen and (min-width: 768px) {
   .place {
-    margin-top: 72px;
-    margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 72px;
     margin-left: 24px;
     margin-right: 24px;
     gap: 28px 48px;
-    grid-template-columns: minmax(320px, 340px) 1fr;
-    grid-template-rows: minmax(56px,152px) 1fr;
+    grid-template-columns: minmax(41.67vw, 44.27vw) 1fr;
+    grid-template-rows: max-content 1fr;
     grid-template-areas:
       "title website"
       "image text";
@@ -32,13 +32,13 @@
 } 
 @media screen and ( min-width: 1024px) {
   .place {
-    margin-top: 80px;
-    margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 80px;
     margin-left: 48px;
     margin-right: 48px;
     gap: 32px 48px;
-    grid-template-columns: minmax(340px, 440px) 1fr;
-    grid-template-rows: minmax(56px,152px) 1fr;
+    grid-template-columns: minmax(33.20vw, 42.97vw) 1fr;
+    grid-template-rows: max-content 1fr;
     grid-template-areas:
       "title website"
       "image text";
@@ -47,13 +47,13 @@
 @media screen and (min-width: 1280px) {
   .place {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 80px;
     margin-left: 148px;
     margin-right: 148px;
     gap: 40px 48px;
     display: grid;
     grid-template-columns: minmax(440px, 460px) 1fr;
-    grid-template-rows: minmax(56px,152px) 1fr;
+    grid-template-rows: max-content 1fr;
     grid-template-areas:
       "title website"
       "image text";

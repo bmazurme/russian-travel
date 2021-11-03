@@ -12,8 +12,8 @@
 
 @media screen and (min-width: 320px) {
   .intro__title {
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 10vw;
+    line-height: 10.94vw;
     margin-top: 64px;
     margin-left: 16px;
   }
@@ -21,8 +21,8 @@
 
 @media screen and (min-width: 768px) {
   .intro__title {
-    font-size: 54px;
-    line-height: 58px;
+    font-size: 7.03vw;
+    line-height: 7.55vw;
     margin-top: 88px;
     margin-left: 24px;
   }
@@ -30,8 +30,8 @@
 
 @media screen and ( min-width: 1024px) {
   .intro__title {
-    font-size: 54px;
-    line-height: 58px;
+    font-size: 5.27vw;
+    line-height: 5.66vw;
     margin-top: 92px;
     margin-left: 48px;
   }
