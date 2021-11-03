@@ -3,18 +3,18 @@
   letter-spacing: 0em;
   font-style: normal;
   font-weight: 900;
-  margin: 0;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 320px) {
   .lead__title {
     font-size: 12.50vw;
     line-height: 13.75vw;
-    margin-right: 16px;
-    margin-left: 16px;
+    width: 90vw;;
   }
 }
 
@@ -22,8 +22,7 @@
   .lead__title {
     font-size: 12.50vw;
     line-height: 13.02vw;
-    margin-right: 24px;
-    margin-left: 24px;
+    width: 93.75vw;
   }
 }
 
@@ -31,8 +30,7 @@
   .lead__title {
     font-size: 9.38vw;
     line-height: 9.77vw;
-    margin-right: 152px;
-    margin-left: 152px;
+    width: 70.31vw;
   }
 }
 
@@ -40,7 +38,6 @@
   .lead__title {
     font-size: 96px;
     line-height: 100px;
-    margin-right: 280px;
-    margin-left: 280px;    
+    width: 720px;
   }
 } 

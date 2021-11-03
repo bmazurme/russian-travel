@@ -1,6 +1,6 @@
 .cover_image {    
   opacity: 0.8;
-  max-width: 100%;
+  width: 100%;
   object-fit: cover;
   z-index: 0;
 }

@@ -11,6 +11,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 @media screen and (min-width: 320px) {
   .cover__subtitle {
     font-size: 4.38vw;
@@ -18,7 +19,8 @@
     width: 90.00vw;
     top: 65%;
   }
-} 
+}
+
 @media screen and (min-width: 768px) {
   .cover__subtitle {
     font-size: 2.34vw;
@@ -26,7 +28,8 @@
     width: 46.88vw;
     top: 65%;
   }
-} 
+}
+
 @media screen and ( min-width: 1024px) {
   .cover__subtitle {
     font-size: 1.76vw;
@@ -34,7 +37,8 @@
     width: 35.16vw;
     top: 62%;
   }
-} 
+}
+
 @media screen and (min-width: 1280px) {
   .cover__subtitle {
     font-size: 18px;

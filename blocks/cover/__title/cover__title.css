@@ -12,6 +12,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 @media screen and (min-width: 320px) {
   .cover__title {
     font-size: 10.0vw;
@@ -19,7 +20,8 @@
     width: 79.5vw;
     top: 33%;
   }
-} 
+}
+
 @media screen and (min-width: 768px) {
   .cover__title {
     font-size: 9.38vw;
@@ -27,7 +29,8 @@
     top: 43%;
     width: 72.92vw;
   }
-} 
+}
+
 @media screen and ( min-width: 1024px) {
   .cover__title {
     font-size: 7.03vw;
@@ -35,7 +38,8 @@
     top: 43%;
     width: 54.69vw;
   }
-} 
+}
+
 @media screen and (min-width: 1280px) {
   .cover__title {
     font-size: 72px;
