@@ -1,4 +1,4 @@
-.footer_copyright {
+.footer__copyright {
   font-size: 14px;
   line-height: 14px;
   text-align: right;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (min-width: 320px) {
-  .footer_copyright {
+  .footer__copyright {
     text-align: left;
     margin-top: 16px;
     width: 100%;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer_copyright {
+  .footer__copyright {
     text-align: right;
     margin: 0;
     font-size: 1.82vw;
@@ -26,7 +26,7 @@
 }
 
 @media screen and ( min-width: 1024px) {
-  .footer_copyright {
+  .footer__copyright {
     text-align: right;
     margin: 0;
     font-size: 1.37vw;
@@ -35,7 +35,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .footer_copyright {
+  .footer__copyright {
     text-align: right;
     margin: 0;
     font-size: 14px;
