@@ -5,45 +5,42 @@
   font-weight: 900;
   letter-spacing: 0em;
   text-align: center;
-  width: 288px;
   margin: 0;
   z-index: 1;
   opacity: 1;
   position: absolute;
-  top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 @media screen and (min-width: 320px) {
   .cover__title {
-    font-size: 32px;
-    line-height: 35px;
-    width: 250px;
+    font-size: 10.0vw;
+    line-height: 10.94vw;
+    width: 79.5vw;
     top: 33%;
   }
 } 
 @media screen and (min-width: 768px) {
   .cover__title {
-    font-size: 72px;
-    line-height: 76px;
-    width: 560px;
+    font-size: 9.38vw;
+    line-height: 9.90vw;
     top: 43%;
+    width: 72.92vw;
   }
 } 
 @media screen and ( min-width: 1024px) {
   .cover__title {
-    font-size: 72px;
-    line-height: 76px;
-    width: 560px;
+    font-size: 7.03vw;
+    line-height: 7.42vw;
     top: 43%;
+    width: 54.69vw;
   }
 } 
 @media screen and (min-width: 1280px) {
   .cover__title {
     font-size: 72px;
     line-height: 76px;
-    width: 560px;
-    height: 152px;
     top: 43%;
+    width: 560px;
   }
 } 

@@ -1,35 +1,10 @@
-@media screen and (min-width: 320px) {
-  .cover_image {    
-    opacity: 0.8;
-    max-width: 100%;
-    object-fit: cover;
-    z-index: 0;
-  }
-} 
-@media screen and (min-width: 768px) {
-  .cover_image {
-    opacity: 0.8;  
-    max-width: 100%;
-    object-fit: cover;
-    z-index: 0;
-  }
-} 
-@media screen and ( min-width: 1024px) {
-  .cover_image {
-    object-fit: cover;
-    opacity: 0.8; 
-    z-index: 0; 
-  }
+.cover_image {    
+  opacity: 0.8;
+  max-width: 100%;
+  object-fit: cover;
+  z-index: 0;
 }
-@media screen and (min-width: 1280px) {
-  .cover_image {
-    opacity: 0.8; 
-    max-width: 100%; 
-    object-fit: cover;
-    z-index: 0;
-  }
-} 
+
 .cover_image:hover {
   opacity: 0.3;
-  object-fit: cover;
 }
