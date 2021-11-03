@@ -1,36 +1,27 @@
-/* .website {
-  margin: 0;
-  align-self: end;
+.website {
   grid: website;
-} */
+  align-self: end;
+}
 @media screen and (min-width: 320px) {
   .website {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 16px;
-    margin-right: 16px;
-    align-self: end;
-    grid: website;
+    margin-right: 16px; 
   }
 }
 @media screen and (min-width: 768px) {
   .website {
-    margin: 0;
-    align-self: end;
-    grid: website;
+    margin: 0;    
   }
 } 
 @media screen and ( min-width: 1024px) {
   .website {
     margin: 0;
-    align-self: end;
-    grid: website;
   }
 } 
 @media screen and (min-width: 1280px) {
   .website {
     margin: 0;
-    align-self: end;
-    grid: website;
   }
 } 

@@ -1,31 +1,6 @@
-@media screen and (min-width: 320px) {
-  .place__image {
-    margin: 0;
-    width: 100%;
-    object-fit: cover;
-  }
-} 
-@media screen and (min-width: 768px) {
-  .place__image {
-    grid: image;
-    margin: 0;
-    width: 100%;
-    object-fit: cover;
-  }
-} 
-@media screen and ( min-width: 1024px) {
-  .place__image {
-    grid: image;
-    margin: 0;
-    width: 100%;
-    object-fit: cover;
-  }
-} 
-@media screen and (min-width: 1280px) {
-  .place__image {
-    grid: image;
-    margin: 0;
-    width: 100%;
-    object-fit: cover;
-  }  
-} 
+.place__image {
+  grid: image;
+  margin: 0;
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,11 +1,14 @@
-
+.footer__link {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
 
 @media screen and (min-width: 320px) {
   .footer__link {
-    color: white;
-    text-decoration: none;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 32px;
     margin-left: 0;
     margin-right: 18px;
     font-size: 24px;
@@ -14,8 +17,6 @@
 } 
 @media screen and (min-width: 768px) {
   .footer__link {
-    color: white;
-    text-decoration: none;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -26,8 +27,6 @@
 } 
 @media screen and ( min-width: 1024px) {
   .footer__link {
-    color: white;
-    text-decoration: none;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -38,8 +37,6 @@
 } 
 @media screen and (min-width: 1280px) {
   .footer__link {
-    color: white;
-    text-decoration: none;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -47,4 +44,7 @@
     font-size: 16px;
     line-height: 18px;
   }
-} 
+}
+.footer__link:hover {
+  opacity: 0.8;
+}

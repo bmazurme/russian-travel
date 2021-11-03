@@ -1,52 +1,35 @@
 @media screen and (min-width: 320px) {
-  .cover_image {
-    z-index: 0;
-    display: flex; 
-    flex-direction: column;
-    margin: 0;
-    opacity: 0.8;  
+  .cover_image {    
+    opacity: 0.8;
+    max-width: 100%;
     object-fit: cover;
-    position: relative;
+    z-index: 0;
   }
 } 
 @media screen and (min-width: 768px) {
   .cover_image {
-    z-index: 0;
-    display: flex; 
-    flex-direction: column;
-    margin: 0;
     opacity: 0.8;  
+    max-width: 100%;
     object-fit: cover;
-    position: relative;
-  
+    z-index: 0;
   }
 } 
 @media screen and ( min-width: 1024px) {
   .cover_image {
-    z-index: 0;
-    display: flex; 
-    flex-direction: column;
-    margin: 0;
-    opacity: 0.8;  
     object-fit: cover;
-    position: relative;
-  
+    opacity: 0.8; 
+    z-index: 0; 
   }
-} 
+}
 @media screen and (min-width: 1280px) {
   .cover_image {
-    z-index: 0;
-    display: flex; 
-    flex-direction: column;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 48px;
-    margin-right: 48px;
-    opacity: 0.8;  
+    opacity: 0.8; 
+    max-width: 100%; 
     object-fit: cover;
-    position: relative; 
+    z-index: 0;
   }
 } 
 .cover_image:hover {
   opacity: 0.3;
+  object-fit: cover;
 }

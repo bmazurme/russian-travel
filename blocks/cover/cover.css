@@ -1,7 +1,15 @@
+.cover {
+  z-index: 0;
+  display: flex; 
+  flex-direction: column;
+  margin-top: 66px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 @media screen and (min-width: 320px) {
   .cover {
-    z-index: 0;
-    display: flex; 
     flex-direction: column;
     margin-top: 66px;
     margin-bottom: 0;
@@ -11,8 +19,6 @@
 } 
 @media screen and (min-width: 768px) {
   .cover {
-    z-index: 0;
-    display: flex; 
     flex-direction: column;
     margin-top: 90px;
     margin-bottom: 0;
@@ -22,8 +28,6 @@
 } 
 @media screen and ( min-width: 1024px) {
   .cover {
-    z-index: 0;
-    display: flex; 
     flex-direction: column;
     margin-top: 92px;
     margin-bottom: 0;
@@ -33,8 +37,6 @@
 } 
 @media screen and (min-width: 1280px) {
   .cover {
-    z-index: 0;
-    display: flex; 
     flex-direction: column;
     margin-top: 92px;
     margin-bottom: 0;
