@@ -20,13 +20,15 @@
     margin-top: 46px;
     margin-right: 48px;
   }
-} 
+}
+
 @media screen and ( min-width: 1024px) {
   .header__menu {
     margin-top: 46px;
     margin-right: 48px;
   }
-} 
+}
+
 @media screen and (min-width: 1280px) {
   .header__menu {
     margin-top: 46px;
