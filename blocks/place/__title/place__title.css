@@ -1,5 +1,5 @@
 .place__title {
-  grid: title;
+  grid-area: title;
   font-family: Inter;
   font-size: 32px;
   font-style: normal;
@@ -16,7 +16,7 @@
 
 @media screen and (min-width: 320px) {
   .place__title {
-    grid: title;
+    grid-area: title;
     font-size: 32px;
     line-height: 35px;
   }
@@ -24,7 +24,7 @@
 
 @media screen and (min-width: 768px) {
   .place__title {
-    grid: title;
+    grid-area: title;
     font-size: 72px;
     line-height: 76px;
     margin: 0;
@@ -33,7 +33,7 @@
 
 @media screen and ( min-width: 1024px) {
   .place__title {
-    grid: title;
+    grid-area: title;
     font-size: 72px;
     line-height: 76px;
     margin: 0;
@@ -42,7 +42,7 @@
 
 @media screen and (min-width: 1280px) {
   .place__title {
-    grid: title;
+    grid-area: title;
     font-size: 72px;
     line-height: 76px;
     margin: 0;

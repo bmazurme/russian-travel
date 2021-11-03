@@ -1,5 +1,5 @@
 .place__paragraph {
-  grid: text;
+  grid-area: text;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 16px;
