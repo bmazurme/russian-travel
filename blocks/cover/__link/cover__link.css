@@ -1,8 +1,8 @@
 .cover__link {
   margin: 0;
-  position: relative;
   z-index: 0;
-  text-decoration: none; 
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (min-width: 1280px) {

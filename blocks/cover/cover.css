@@ -1,11 +1,12 @@
 .cover {
-  z-index: 0;
-  display: flex;
-  flex-direction: column;
-  margin-top: 66px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0;
+  margin: 0 auto;
+  grid-template-areas:
+  "title"
+  "subtitle";
 }
 
 @media screen and (min-width: 320px) {
