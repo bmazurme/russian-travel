@@ -11,7 +11,7 @@
        url("../../vendor/InterWeb/Inter-Bold.woff") format("woff");
        font-weight: bold;
  }
- 
+
  @font-face {
   font-family: 'Inter';
   src: url("../../vendor/InterWeb/Inter-Black.woff2") format("woff2"),
@@ -24,7 +24,7 @@
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%; 
+  -moz-text-size-adjust: 100%;
   min-width: 320px;
   max-width: 1280px;
   margin: 0 auto;
