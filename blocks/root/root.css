@@ -1,16 +1,3 @@
-/* 
-@font-face {
-  font-family: "Inter";
-  src: url("../../vendor/InterWeb/Inter-Regular.woff2") format("woff2"),
-         url("../../vendor/InterWeb/Inter-Regular.woff") format("woff"),
-         url("../../vendor/InterWeb/Inter-Black.woff2") format("woff2"),
-         url("../../vendor/InterWeb/Inter-Black.woff") format("woff"),
-         url("../../vendor/InterWeb/Inter-Bold.woff2") format("woff2"),
-         url("../../vendor/InterWeb/Inter-Bold.woff") format("woff"),
-         ;
- } */
-
-
 .root {
   display: block;
   background: #2A2C2F;

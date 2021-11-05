@@ -4,10 +4,3 @@
   text-decoration: none;
   color: white;
 }
-
-@media screen and (min-width: 1280px) {
-  .cover__link {
-    margin-left: 48px;
-    margin-right: 48px;
-  }
-} 
