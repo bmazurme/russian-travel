@@ -9,6 +9,7 @@
   margin-right: auto;
   margin-top: 8px;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 320px) {

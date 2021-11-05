@@ -1,12 +1,11 @@
-.cover__image {    
+/* .cover__image {    
   opacity: 0.8;
   width: 100%;
   object-fit: cover;
   z-index: 0;
-  grid-row: title / subtitle;
-  grid-column: 1;
-}
 
-.cover__image:hover {
+} */
+
+/* .cover__image:hover {
   opacity: 0.3;
-}
+} */

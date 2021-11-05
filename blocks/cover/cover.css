@@ -1,40 +1,65 @@
 .cover {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 0;
   margin: 0 auto;
   grid-template-areas:
   "title"
-  "subtitle";
+  "subtitle"; */
+  /* max-width: 1184px;
+  max-height: 740px; */
+
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 0;
+  grid-template-areas:
+  "content";
+
+  height: 62.50vw;
+  margin: 0;
+  background-image: url(../../images/background.jpg);
+  background-size: cover;
+  z-index: 0;
+
 }
+/* .cover::before {
+  opacity: 0.8;
+
+} */
 
 @media screen and (min-width: 320px) {
   .cover {
-    margin-top: 66px;
-    gap: 16px;
+    min-height: 200px;
+
+
   }
 }
 
 @media screen and (min-width: 768px) {
   .cover {
-    margin-top: 90px;
-    gap: 32px;
+    min-height: 480px;
+
+
   }
 }
 
 @media screen and ( min-width: 1024px) {
   .cover {
-    margin-top: 92px;
-    gap: 32px;
+    min-height: 640px;
+
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover {
-    margin-top: 92px;
+    margin-top: 12px;
     margin-left: 48px;
     margin-right: 48px;
-    gap: 32px;
+    min-height: 740px;
+    height: 740px;
+    /* gap: 32px; */
   }
 } 

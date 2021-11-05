@@ -3,9 +3,11 @@
   object-fit: cover;
   margin-top: 64px;
   margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-@media screen and (min-width: 320px) {
+/* @media screen and (min-width: 320px) {
   .lead__image {
     margin-left: 0;
     margin-right: 0;
@@ -17,7 +19,7 @@
     margin-left: 0;
     margin-right: 0;
   }
-}
+} */
 
 @media screen and ( min-width: 1024px) {
   .lead__image {

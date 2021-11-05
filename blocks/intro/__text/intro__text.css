@@ -14,6 +14,7 @@
   .intro__text {
     margin-left: 16px;
     margin-right: 16px;
+    width: 100%;
   }
 }
 
@@ -21,6 +22,7 @@
   .intro__text {
     margin-left: 24px;
     margin-right: 24px;
+    max-width: 720px;
   }
 }
 
@@ -28,6 +30,7 @@
   .intro__text {
     margin-left: 48px;
     margin-right: 48px;
+    max-width: 690px;
   }
 }
 
@@ -35,5 +38,6 @@
   .intro__text {
     margin-left: 148px;
     margin-right: 148px;
+    max-width: 690px;
   }
 } 

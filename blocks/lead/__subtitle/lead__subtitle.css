@@ -6,7 +6,7 @@
   text-align: center;
   font-size: 30px;
   line-height: 36px;
-  margin-top: 0;
+  margin-top: 32px;
   margin-bottom: 0;
   margin-right: auto;
   margin-left: auto; 
@@ -16,7 +16,7 @@
     font-size: 5vw;
     line-height: 6.25vw;
     width: 90vw;
-    margin-top: 32px;
+    /* margin-top: 32px; */
   }
 }
 
@@ -25,7 +25,7 @@
     font-size: 3.91vw;
     line-height: 4.69vw;
     width: 83.33vw;
-    margin-top: 32px;
+    /* margin-top: 32px; */
   }
 }
 
@@ -34,7 +34,7 @@
     font-size: 2.93vw;
     line-height: 3.52vw;
     width: 62.50vw;
-    margin-top: 32px;
+    /* margin-top: 32px; */
   }
 }
 
@@ -43,6 +43,6 @@
     font-size: 30px;
     line-height: 36px;
     width: 640px;
-    margin-top: 32px;
+    /* margin-top: 32px; */
   }
 } 
