@@ -1,5 +1,4 @@
 .intro__title {
-  font-family: Inter;
   font-size: 32px;
   font-style: normal;
   font-weight: 900;
@@ -11,29 +10,30 @@
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .intro__title {
     font-size: 10vw;
     line-height: 10.94vw;
     margin-top: 64px;
     margin-left: 16px;
+    width: 78vw;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro__title {
     font-size: 7.03vw;
     line-height: 7.55vw;
     margin-top: 88px;
     margin-left: 24px;
+    width: 90vw;
   }
 }
 
-@media screen and ( min-width: 1024px) {
+@media screen and ( min-width: 1024px) and (max-width: 1279px) {
   .intro__title {
     font-size: 5.27vw;
     line-height: 5.66vw;
-    /* margin-top: 92px; */
     margin-left: 48px;
   }
 }

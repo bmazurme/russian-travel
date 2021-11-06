@@ -7,22 +7,23 @@
   text-align: center;
   color: white;
   z-index: 2;
-  margin-top: 0;
+  margin-top: 32px;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   align-self: start;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px){
   .cover__subtitle {
     font-size: 4.38vw;
     line-height: 5.00vw;
     width: 90.00vw;
+    margin-top: 0;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and ( max-width: 1023px) {
   .cover__subtitle {
     font-size: 2.34vw;
     line-height: 2.86vw;
@@ -30,7 +31,7 @@
   }
 }
 
-@media screen and ( min-width: 1024px) {
+@media screen and ( min-width: 1024px) and (max-width: 1279px) {
   .cover__subtitle {
     font-size: 1.76vw;
     line-height: 2.15vw;

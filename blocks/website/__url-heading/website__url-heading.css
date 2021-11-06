@@ -8,12 +8,6 @@
   margin-left: 0;
   margin-right: 0;
   text-transform: uppercase;
-  /* font-size: 12px;
-  line-height: 12px; */
-
   font-size: 12px;
-line-height: 170%;
-/* or 20px */
-
-letter-spacing: 2px;
+  letter-spacing: 2px;
 }
