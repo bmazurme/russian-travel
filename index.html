@@ -14,8 +14,12 @@
       <header class="header">
         <img class="header__logo" src="./images/logo/__logo.svg" alt="Логотип.">
         <ul class="header__menu">
-          <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
-          <li><a class="header__lang-link" href="#">En</a></li>
+          <li>
+            <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+          </li>
+          <li>
+            <a class="header__lang-link" href="#">En</a>
+          </li>
         </ul>
       </header>
 
@@ -23,10 +27,11 @@
         <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-          <img class="lead__image" src="./images/kalegin-michail-179870-unsplash.jpg" alt="Тематическое изображение.">
-          <p class="lead__caption">
-            ваша полка — верхняя
-          </p>
+          <figure class="lead__figure">
+            <img class="lead__image" src="./images/kalegin-michail-179870-unsplash.jpg"
+                 alt="Тематическое изображение.">
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+          </figure>
         </section>
 
         <section class="intro">
@@ -51,18 +56,18 @@
         </section>
 
         <section class="photo-grid">
-          <img class="photo-grid__item" src="images/img_1.jpg" alt="Случайное изображение 1.">
-          <img class="photo-grid__item" src="images/img_2.jpg" alt="Случайное изображение 2.">
-          <img class="photo-grid__item" src="images/img_3.jpg" alt="Случайное изображение 3.">
-          <img class="photo-grid__item" src="images/img_4.jpg" alt="Случайное изображение 4.">
-          <img class="photo-grid__item" src="images/img_5.jpg" alt="Случайное изображение 5.">
-          <img class="photo-grid__item" src="images/img_6.jpg" alt="Случайное изображение 6.">
-          <img class="photo-grid__item" src="images/img_7.jpg" alt="Случайное изображение 7.">
-          <img class="photo-grid__item" src="images/img_8.jpg" alt="Случайное изображение 8.">
-          <img class="photo-grid__item" src="images/img_9.jpg" alt="Случайное изображение 9.">
-          <img class="photo-grid__item" src="images/img_10.jpg" alt="Случайное изображение 10.">
-          <img class="photo-grid__item" src="images/img_11.jpg" alt="Случайное изображение 11.">
-          <img class="photo-grid__item" src="images/img_12.jpg" alt="Случайное изображение 12.">
+          <img class="photo-grid__item" src="images/img_1.jpg" alt="Вид из окна поезда.">
+          <img class="photo-grid__item" src="images/img_2.jpg" alt="Вершина горы в облаках.">
+          <img class="photo-grid__item" src="images/img_3.jpg" alt="Собака на стоге сена в поле.">
+          <img class="photo-grid__item" src="images/img_4.jpg" alt="Верхушки деревьев в тумане.">
+          <img class="photo-grid__item" src="images/img_5.jpg" alt="Колесо машины на льду.">
+          <img class="photo-grid__item" src="images/img_6.jpg" alt="Берег моря.">
+          <img class="photo-grid__item" src="images/img_7.jpg" alt="Вершины гор.">
+          <img class="photo-grid__item" src="images/img_8.jpg" alt="Знак пешеходного перехода на фоне волнорезов.">
+          <img class="photo-grid__item" src="images/img_9.jpg" alt="Туман.">
+          <img class="photo-grid__item" src="images/img_10.jpg" alt="Луг на фоне горы.">
+          <img class="photo-grid__item" src="images/img_11.jpg" alt="Обрывестое побережье.">
+          <img class="photo-grid__item" src="images/img_12.jpg" alt="Горы в облаках.">
         </section>
 
         <section class="places">
@@ -72,7 +77,7 @@
                 <p class="website__url-heading">URL</p>
                 <a class="website__link" target="_blank" href="http://park-kosa.ru">park-kosa.ru</a>
               </div>
-              <img class="place__image" src="./images/places/place_1.jpg" alt="Фото Куршская коса.">
+              <img class="place__image" src="./images/places/place_1.jpg" alt="Куршский залив.">
               <div class="place__paragraph">
                 <p class="place__block">
                   Здесь, посреди лесов и&nbsp;песчаных дюн, вы&nbsp;сможете увидеть два водных 
@@ -86,7 +91,7 @@
                   коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера 
                   здешних мест исключает суету, окуная в спокойствие природы и запах стального, 
                   прохладного моря.
-              </p>
+                </p>
               </div>
             </article>
 
@@ -94,20 +99,21 @@
               <h2 class="place__title">Кольский</h2>
               <div class="website">
                 <p class="website__url-heading">URL</p>
-                <a class="website__link" target="_blank" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+                <a class="website__link" target="_blank" 
+                  href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
               </div>
-              <img class="place__image" src="./images/places/place_2.jpg" alt="Фото Кольский.">
+              <img class="place__image" src="./images/places/place_2.jpg" alt="Берег Ледовитого океана в снегу.">
               <div class="place__paragraph">
                 <p class="place__block">Почти весь полуостров находится за&nbsp;Полярным
                   кругом. Саамская тундра, от&nbsp;которой на&nbsp;юг &mdash;
                   тайга,&nbsp;а&nbsp;на&nbsp;север&nbsp;&mdash; Ледовитый океан,
                   прикидывающийся Баренцевым морем.</p>
-              <p class="place__block">
-                Возможно, вы&nbsp;смотрели Звягинцева и&nbsp;даже слышали историю арктического фестиваля в&nbsp;Териберке. 
-                Возможно, слово &laquo;Хибины&raquo; не&nbsp;осталось под снегом школьных воспоминаний об&nbsp;уроках географии. 
-                Возможно, вы&nbsp;не&nbsp;интересовались пронизывающей земную кору сверхглубокой скважиной, а&nbsp;от&nbsp;апатитов 
-                вас давно накрывает апатия. Но&nbsp;ваша мечта увидеть северное сияние начинает сбываться с&nbsp;билетом
-                в&nbsp;Мурманск.
+                <p class="place__block">
+                  Возможно, вы&nbsp;смотрели Звягинцева и&nbsp;даже слышали историю арктического фестиваля в&nbsp;Териберке. 
+                  Возможно, слово &laquo;Хибины&raquo; не&nbsp;осталось под снегом школьных воспоминаний об&nbsp;уроках географии. 
+                  Возможно, вы&nbsp;не&nbsp;интересовались пронизывающей земную кору сверхглубокой скважиной, а&nbsp;от&nbsp;апатитов 
+                  вас давно накрывает апатия. Но&nbsp;ваша мечта увидеть северное сияние начинает сбываться с&nbsp;билетом
+                  в&nbsp;Мурманск.
                 </p>
               </div>
             </article>
@@ -116,9 +122,10 @@
               <h2 class="place__title">Алтай</h2>
               <div class="website">
                 <p class="website__url-heading">URL</p>
-                <a class="website__link" target="_blank" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+                <a class="website__link" target="_blank" 
+                  href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
               </div>
-              <img class="place__image" src="./images/places/place_3.jpg" alt="Фото Алтай.">
+              <img class="place__image" src="./images/places/place_3.jpg" alt="Ноутбук на фоне леса.">
               <div class="place__paragraph">
                 <p class="place__block">
                   Алтай&nbsp;&mdash; одно из&nbsp;красивейших мест в&nbsp;России. 
@@ -141,7 +148,7 @@
                 <p class="website__url-heading">URL</p>
                 <a class="website__link" target="_blank" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
               </div>
-              <img class="place__image" src="./images/places/place_4.jpg" alt="Фото Зимний Байкал.">
+              <img class="place__image" src="./images/places/place_4.jpg" alt="Узоры на льду.">
               <div class="place__paragraph">
                 <p class="place__block">
                   Всем известен Байкал как крупнейшее озеро&nbsp;в&nbsp;мире. Многие также знают, что это самый большой
@@ -164,7 +171,7 @@
                 <p class="website__url-heading">URL</p>
                 <a class="website__link" target="_blank" href="http://vodlozero.ru">http://vodlozero.ru/</a>
               </div>
-              <img class="place__image" src="./images/places/place_5.jpg" alt="Фото Карелия.">
+              <img class="place__image" src="./images/places/place_5.jpg" alt="Река в лесу.">
               <div class="place__paragraph">
                 <p class="place__block">
                   Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии: образующая тайгу 
@@ -194,11 +201,21 @@
       <footer class="footer">
         <nav class="footer__menu">
           <ul class="footer__list">
-            <li class="footer__item"><a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a></li>
-            <li class="footer__item"><a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a></li>
-            <li class="footer__item"><a class="footer__link" target="_blank" href="https://rasp.yandex.ru">Расписание</a></li>
-            <li class="footer__item"><a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Календарь</a></li>
-            <li class="footer__item"><a class="footer__link" target="_blank" href="https://travel.yandex.ru">Путешествия</a></li>
+            <li class="footer__item">
+              <a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" target="_blank" href="https://rasp.yandex.ru">Расписание</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Календарь</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" target="_blank" href="https://travel.yandex.ru">Путешествия</a>
+            </li>
           </ul>
         </nav>
         <p class="footer__copyright"> &copy; 2021. Богдан Мазур </p>
