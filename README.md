@@ -3,11 +3,8 @@ _____________________
 
 ### Проектная работа №3
 
-#### Languages
-* HTML
-* CSS
-* БЭМ
-* Figma
+### Стек технологий
+HTML, CSS
 
 ### Ссылки
 * [Проект](https://bmazurme.github.io/russian-travel/)
