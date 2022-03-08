@@ -1,9 +1,10 @@
-# Проект: Путешествие по России
+# Проект: Путешествия по России
 _____________________
 
 ### Проектная работа №3
 
 # Демо
+[Проект на сайт GitHub Pages](https://bmazurme.github.io/russian-travel/)
 ![Alt-текст](https://github.com/bmazurme/russian-travel/blob/main/images/russiantravel.png "demo")
 
 
@@ -11,7 +12,6 @@ _____________________
 HTML, CSS
 
 ### Ссылки
-* [Проект](https://bmazurme.github.io/russian-travel/)
 * [Бесплатный шрифт ”Inter"](https://rsms.me/inter/)
 * [Оптимизировать картинки](https://tinypng.com/)
 * [Архив](https://code.s3.yandex.net/web-developer/project-2/sprint-3-images.zip)
