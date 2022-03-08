@@ -3,6 +3,10 @@ _____________________
 
 ### Проектная работа №3
 
+# Демо
+![Alt-текст](https://github.com/bmazurme/russian-travel/blob/main/images/russiantravel.png "demo")
+
+
 ### Стек технологий
 HTML, CSS
 
