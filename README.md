@@ -1,10 +1,10 @@
 # Проект: Путешествия по России
-_____________________
 
 ### Проектная работа №3
 
 # Демо
 [Проект на сайт GitHub Pages](https://bmazurme.github.io/russian-travel/)
+
 ![Alt-текст](https://github.com/bmazurme/russian-travel/blob/main/images/russiantravel.png "demo")
 
 
